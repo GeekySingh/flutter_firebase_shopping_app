@@ -1,6 +1,6 @@
-# flutter_clean_architecture
+# Shopping app
 
-A new Flutter application.
+A shopping app made with Firebase using Flutter
 
 ## Getting Started
 
