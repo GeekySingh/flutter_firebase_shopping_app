@@ -25,6 +25,9 @@ dependencies:
   injectable: ^1.2.2
   # navigation
   auto_route: ^1.0.2
+  # others
+  carousel_slider: ^4.0.0
+  persistent_bottom_nav_bar: ^4.0.2
 
 dev_dependencies:
   flutter_test:

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "1069242618385",
+    "firebase_url": "https://flutter-ecomm-58297-default-rtdb.firebaseio.com",
+    "project_id": "flutter-ecomm-58297",
+    "storage_bucket": "flutter-ecomm-58297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069242618385:android:e0f25961c3479d21d8d7b0",
+        "android_client_info": {
+          "package_name": "com.sample.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069242618385-0edp7g3cg7v9trjl79t1b2pl4d462kug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPs_bsG3eVzBNM3cdKE5Z0JzM_3_p23pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069242618385-0edp7g3cg7v9trjl79t1b2pl4d462kug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1069242618385-57ff1ec1r8b6etl6cgr0q3ejs9sf7jpu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ycompany.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069242618385:android:af0587604e9ee2a3d8d7b0",
+        "android_client_info": {
+          "package_name": "com.ycompany.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069242618385-0edp7g3cg7v9trjl79t1b2pl4d462kug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPs_bsG3eVzBNM3cdKE5Z0JzM_3_p23pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069242618385-0edp7g3cg7v9trjl79t1b2pl4d462kug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1069242618385-57ff1ec1r8b6etl6cgr0q3ejs9sf7jpu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ycompany.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

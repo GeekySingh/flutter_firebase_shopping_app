@@ -8,10 +8,5 @@ final locator = GetIt.instance..allowReassignment = true;
 
 @injectableInit
 void setupLocator() {
-  _init(locator);
   $initGetIt(locator);
-}
-
-void _init(GetIt locator) {
-
 }

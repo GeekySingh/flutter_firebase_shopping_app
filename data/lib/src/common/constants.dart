@@ -1,7 +1,5 @@
-
-abstract class Constants {
-
-  static const BASE_URL = "https://api.nytimes.com/svc/";
-  static const API_KEY = "qtVlLSfH968rf6nd2tqbLPDnHnA7NLEb";
-
+class Constants {
+  static const errorEmailAlreadyExists = "Email ID already existed!";
+  static const errorWrongPassword = "Password is incorrect";
+  static const errorUnableToLogin = "Unable to login, please try again!";
 }
