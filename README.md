@@ -2,6 +2,9 @@
 
 A shopping app made with Firebase using Flutter
 
+Here is detailed guide to start with clean architecture in Flutter
+https://geekysingh.medium.com/clean-architecture-for-enterprise-flutter-application-dc254a71059
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
