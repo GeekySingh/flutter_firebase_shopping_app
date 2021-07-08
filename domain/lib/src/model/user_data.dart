@@ -1,10 +1,18 @@
-class User {
-  final String name;
-  final String email;
-  final String number;
-  final List<Address> addresses;
+class UserData {
+  String? name;
+  String? email;
+  String? number;
+  List<Address>? addresses;
 
-  User(this.name, this.email, this.number, this.addresses);
+  UserData(this.name, this.email, this.number);
+
+  Map<String, dynamic> toMap() {
+    return {
+      'name': name,
+      'email': email,
+      'number': number,
+    };
+  }
 }
 
 class Address {

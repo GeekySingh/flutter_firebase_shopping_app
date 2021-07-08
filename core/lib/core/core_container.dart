@@ -5,19 +5,14 @@ import 'package:stacked/stacked.dart';
 
 import 'core_view_model.dart';
 
-abstract class CoreScreen<T extends CoreViewModel>
+abstract class CoreContainer<T extends CoreViewModel>
     extends ViewModelBuilderWidget<T> {
-
-  String getTitle();
-
   @override
   Widget builder(BuildContext context, T viewModel, Widget? child) {
-    return Scaffold(
-        appBar: AppBar(title: Text(getTitle())),
-        body: screenBuilder(context, viewModel));
+    return containerBuilder(context, viewModel);
   }
 
-  Widget screenBuilder(BuildContext context, T viewModel);
+  Widget containerBuilder(BuildContext context, T viewModel);
 
   @override
   T viewModelBuilder(BuildContext context) => locator<T>();

@@ -5,12 +5,13 @@ import 'package:domain/src/usecase/base/base_use_case.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable()
-class UserLoginUseCase implements BaseUseCase {
+class UserRegistrationUseCase implements BaseUseCase {
   final UserRepository _userRepository;
 
-  UserLoginUseCase(this._userRepository);
+  UserRegistrationUseCase(this._userRepository);
 
-  Future<Result<UserData?>> login(String email, String password) {
-    return _userRepository.login(email, password);
+  Future<Result<UserData?>> register(
+      String name, String email, String phoneNumber, String password) {
+    return _userRepository.register(name, email, phoneNumber, password);
   }
 }
